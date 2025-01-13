@@ -50,7 +50,7 @@ app.get("/api/shorturl/:urlNo", (req, res) => {
   }
 
   res.redirect(urlEntry.original_url);
-});
+});  
 
 app.post("/api/hello", (req, res) => {
   res.json({ greeting: "hello API" });
