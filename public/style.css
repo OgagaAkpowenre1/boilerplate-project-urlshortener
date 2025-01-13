@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: Arial, sans-serif;
   font-size: 16px;
   color: #222;
@@ -14,13 +14,13 @@ main {
 
 h3 {
   margin-top: 30px;
-}
+} */
 
 
 
-.user-stories li {
+/* .user-stories li {
   margin-bottom: 1em;
-}
+} */
 
 a {
   color: #2574a9;
@@ -43,4 +43,109 @@ input {
 input[type='text'] {
   width: 220px;
   text-align: center;
+}
+
+
+/* General Reset */
+body, p, a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #023047;
+  text-align: center;
+  line-height: 1.6em;
+  padding: 20px;
+}
+
+/* Main Header */
+h1 {
+  /* font-size: 2.5rem; */
+  color: #2574a9;
+  /* margin-bottom: 20px; */
+}
+
+/* Form Section */
+main {
+  background-color: #219EBC;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Form Fieldset */
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+/* Legend */
+legend {
+  font-size: 1.5rem;
+  color: #2574a9;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Labels */
+label {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Input Fields */
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin: 10px 0;
+  transition: border 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #2574a9;
+  outline: none;
+}
+
+/* Submit Button */
+input[type="submit"] {
+  background-color: #2574a9;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #1a5e82;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #2574a9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
